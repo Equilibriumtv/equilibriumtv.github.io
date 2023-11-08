@@ -1193,10 +1193,11 @@ Compativel com as versões Matrix, Nexus, Omega!
         </assets>
     </extension>
 </addon>
+
 <addon id="script.video.F4mProxy" 
 	     name="F4mProxy" 
 	     version="4.0.9" 
-	     provider-name="Joel e Tiago">
+	     provider-name="Team Magusplay joel e Tiago">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
@@ -1216,6 +1217,7 @@ Compativel com as versões Matrix, Nexus, Omega!
 		</assets>
 	</extension>
 </addon>
+
 <addon id="plugin.video.elementum" name="Elementum" version="0.1.98" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />

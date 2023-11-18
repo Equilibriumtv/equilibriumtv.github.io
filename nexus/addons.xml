@@ -1,6 +1,6 @@
 <addons>
 
-<addon id="plugin.video.equilibrium" name="[B][COLOR white]Equilibrium[/COLOR][/B]" version="5.1.1" provider-name="Team Magusplay">
+<addon id="plugin.video.equilibrium" name="Equilibrium" version="5.1.1" provider-name="Team Magusplay">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
@@ -34,6 +34,7 @@ Compativel com as versões Matrix 19 e 20 Nexus
 	</news>
 </extension>
 </addon>
+
 <addon id="plugin.video.fixtv" name="[B][COLOR white]FixTV Portal[/COLOR][/B]" version="1.0.1" provider-name="Team Magusplay">
 	<requires>
 		<import addon="script.module.six" />

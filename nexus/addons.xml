@@ -35,7 +35,7 @@ Compativel com as versões Matrix 19 e 20 Nexus
 </extension>
 </addon>
 
-<addon id="plugin.video.fixtv" name="[B][COLOR white]FixTV Portal[/COLOR][/B]" version="1.0.1" provider-name="Team Magusplay">
+<addon id="plugin.video.fixtv" name="FixTV Portal" version="1.0.2" provider-name="Team Magusplay">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
@@ -61,13 +61,14 @@ Compativel com as versões Matrix 19 e 20 Nexus
        <fanart>fanart.jpg</fanart>
     </assets>
 	<news>
-O Addon FlixTV Portal é sem fins lucrativos e todo o conteúdo presente nesse addon, encontra-se na internet. Apenas agregamos os links.
+O Addon FixTV Portal é sem fins lucrativos e todo o conteúdo presente nesse addon, encontra-se na internet. Apenas agregamos os links.
 O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso Totalmente gratuito.
 Desenvoveldor Magusplay
 Compativel com as versões Matrix, Nexus, Omega!
 	</news>
 </extension>
 </addon>
+
 <addon id="plugin.video.glowmusic" name="[B][COLOR white]Glow Music[/COLOR][/B]" version="1.0.2" provider-name="Magusplay OnePlay team">
 <requires>
     <import addon="script.module.simplejson" />

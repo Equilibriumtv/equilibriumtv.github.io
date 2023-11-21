@@ -35,7 +35,7 @@ Compativel com as versões Matrix 19 e 20 Nexus
 </extension>
 </addon>
 
-<addon id="plugin.video.fixtv" name="[B][COLOR white]FixTV Portal[/COLOR][/B]" version="1.0.1" provider-name="Team Magusplay">
+<addon id="plugin.video.fixtv" name="FixTV Portal" version="1.0.2" provider-name="Team Magusplay">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
@@ -68,6 +68,7 @@ Compativel com as versões Matrix, Nexus, Omega!
 	</news>
 </extension>
 </addon>
+
 <addon id="plugin.video.glowmusic" name="[B][COLOR white]Glow Music[/COLOR][/B]" version="1.0.2" provider-name="Magusplay OnePlay team">
 <requires>
     <import addon="script.module.simplejson" />
@@ -1794,6 +1795,5 @@ Full changelog here: https://github.com/xbmc/inputstream.ffmpegdirect/blob/Matri
     <description lang="zh_CN">InputStream 客户端，用于可通过 FFmpeg 的 libavformat 或 Kodi 的 cURL 打开的流。支持普通 TS、HLS 和 DASH（无DRM）等常见流格式以及其他许多格式。[CR][CR]该插件还支持有重播窗口（通常以天为单位）的归档/捕获服务，并可以在该时间跨度内进行时光平移。[CR][CR]相关文档请访问：https://github.com/xbmc/inputstream.ffmpegdirect/blob/Matrix/README.md</description>
   </extension>
 </addon>
-
 
 </addons>

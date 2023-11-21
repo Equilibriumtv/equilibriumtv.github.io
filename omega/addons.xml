@@ -35,7 +35,7 @@ Compativel com as versões Matrix 19 e 20 Nexus
 </extension>
 </addon>
 
-<addon id="plugin.video.fixtv" name="[B][COLOR white]FixTV Portal[/COLOR][/B]" version="1.0.1" provider-name="Team Magusplay">
+<addon id="plugin.video.fixtv" name="FixTV Portal" version="1.0.2" provider-name="Team Magusplay">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
@@ -68,6 +68,7 @@ Compativel com as versões Matrix, Nexus, Omega!
 	</news>
 </extension>
 </addon>
+
 <addon id="plugin.video.glowmusic" name="[B][COLOR white]Glow Music[/COLOR][/B]" version="1.0.2" provider-name="Magusplay OnePlay team">
 <requires>
     <import addon="script.module.simplejson" />

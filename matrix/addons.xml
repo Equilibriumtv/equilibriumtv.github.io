@@ -120,6 +120,23 @@ Compativel com as versões Matrix 19 e 20 Nexus
   </extension>
 </addon>
 
+<addon id="plugin.video.nyxprime" name="Nyx Prime" version="1.2" provider-name="[B][COLOR orange]Magusplay[/B][/COLOR]">
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en">[COLOR yellow]Este addon não vende nem fornece ou armazena qualquer conteúdo ilegal[/COLOR] </summary>
+	<language>en</language>
+	<description lang="pt">Addon compátivel Apenas Com Player Inputstream para versões 19+ Kodi</description>
+	<platform>all</platform>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.glowmusic" name="[B][COLOR white]Glow Music[/COLOR][/B]" version="1.0.2" provider-name="Magusplay OnePlay team">
 <requires>
     <import addon="script.module.simplejson" />

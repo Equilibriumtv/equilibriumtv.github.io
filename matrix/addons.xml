@@ -86,7 +86,7 @@ Compativel com as versões Matrix 19 e 20 Nexus
   </extension>
 </addon>
 
-<addon id="plugin.video.playboxhd" name="[B][COLOR white]PlayBox HD[/B][/COLOR]" version="1.3" provider-name="[B][COLOR orange]Team Magusplay[/B][/COLOR]">
+<addon id="plugin.video.playboxhd" name="PlayBox HD" version="1.3" provider-name="[B][COLOR orange]Team Magusplay[/B][/COLOR]">
   <extension point="xbmc.python.pluginsource"
 			library="default.py">
 		<provides>video</provides>

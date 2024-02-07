@@ -35,7 +35,7 @@ Compativel com as versões Matrix 19 e 20 Nexus
 </extension>
 </addon>
 
-<addon id="plugin.video.equilibriumplus" name="Equilibrium Plus" version="1.4" provider-name="[B][COLOR orange]Team Magusplay[/B][/COLOR]">
+<addon id="plugin.video.libertyprime" name="Liberty Prime" version="1.2" provider-name="[B][COLOR orange]Team Magusplay[/B][/COLOR]">
   <extension point="xbmc.python.pluginsource"
 			library="default.py">
 		<provides>video</provides>

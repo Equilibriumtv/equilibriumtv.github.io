@@ -137,6 +137,35 @@ Compativel com as versões Matrix 19 e 20 Nexus
   </extension>
 </addon>
 
+<addon
+	id="plugin.video.elysiumportal" version="1.2" name="[B]Elysium Portal[/B]" provider-name="[B]Team Magusplay[/B]">
+  <requires>    		
+    	<!--<import addon="script.module.resolveurl" /> -->   	
+        <import addon="script.module.requests"/>
+		<import addon="script.module.kodi-six" />	
+	
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	
+	<extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+		<summary lang="en">[COLORcyan]Elysium Portal [COLORgrey]Mac[/COLOR]</summary>
+		<description lang="pt">Este Addon Oferece IPTV, exclusivamente para uso pessoal e privado!</description>
+		<website></website>
+		<license>GPL 3.0</license>
+		<platform>all</platform>
+		<disclaimer lang="en">O autor deste addon, não é nem nunca será responsável pelo seu uso...</disclaimer>
+	<assets>
+        <icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+    </assets>        
+		<language>pt</language>
+	</extension>	
+	
+</addon>
+
 <addon id="plugin.video.glowmusic" name="[B][COLOR white]Glow Music[/COLOR][/B]" version="1.0.2" provider-name="Magusplay OnePlay team">
 <requires>
     <import addon="script.module.simplejson" />

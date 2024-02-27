@@ -921,7 +921,8 @@ v0.5.9 (2022-03-22)
         <disclaimer lang="zh_TW">此附加元件未由Google支持</disclaimer>
     </extension>
 </addon>
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.75" provider-name="gujal">
+
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.127" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
@@ -949,18 +950,16 @@ v0.5.9 (2022-03-22)
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.resolverurl_player" version="1.0.0" name="[B]RESOLVER PLAYER[/B]" provider-name="OnePlay Team">
+
+<addon id="plugin.video.resolverurl_player" version="1.0.1" name="[B]RESOLVER PLAYER[/B]" provider-name="OnePlay Team">
     <requires>
         <import addon="script.module.simplejson" />
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
 		<import addon="script.module.requests"/>
 		<import addon="script.module.beautifulsoup4"/>
-        <import addon="plugin.video.youtube" optional="true" />
-        <import addon="script.module.python.twitch" optional="true" />
-        <import addon="plugin.googledrive" optional="true" />        
+        <import addon="script.module.resolveurl"/>  
     </requires>
-    <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>	

@@ -153,6 +153,27 @@ Compativel com as versões Matrix 19 e 20 Nexus
         </assets>
     </extension>
 </addon>
+
+<addon id="plugin.video.iptvplayer" name="IPTV PLAYER" version="1.1" provider-name="[B][COLOR gold]Team Magusplay[/B][/COLOR]">
+	<requires>
+		<import addon="script.module.requests" version="2.27.1"/>
+	</requires>
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="br">[COLOR blue]Um Player de IPTV para reproduzir listas m3u8 no Kodi 19+[/COLOR] </summary>
+	<language>br</language>
+	<description lang="br">[COLOR gold]Este addon não fornece nem fornece qualquer conteúdo ilegal[/COLOR]</description>
+	<platform>all</platform>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
+  </extension>
+</addon>
+
 <addon id="script.elementum.burst" name="Elementum [COLOR FFFF6B00]Burst[/COLOR]" version="0.0.77" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />

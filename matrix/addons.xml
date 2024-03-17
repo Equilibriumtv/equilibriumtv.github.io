@@ -120,7 +120,7 @@ Compativel com as versões Matrix 19 e 20 Nexus
   </extension>
 </addon>
 
-<addon id="plugin.video.nyxprime" name="Nyx Prime" version="1.2" provider-name="[B][COLOR orange]Magusplay[/B][/COLOR]">
+<addon id="plugin.video.nyxprime" name="Nyx Prime" version="1.3" provider-name="[B][COLOR orange]Magusplay[/B][/COLOR]">
   <extension point="xbmc.python.pluginsource"
 			library="default.py">
 		<provides>video</provides>

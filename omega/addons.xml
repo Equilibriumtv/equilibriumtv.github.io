@@ -727,7 +727,7 @@ v0.5.9 (2022-03-22)
     </extension>
 </addon>
 
-<addon id="plugin.video.resolverurl_player" version="1.0.1" name="[B]RESOLVER PLAYER[/B]" provider-name="OnePlay Team">
+<addon id="plugin.video.resolverurl_player" version="1.2" name="Resolver Player" provider-name="OnePlay Team">
     <requires>
         <import addon="script.module.simplejson" />
         <import addon="script.module.six" />

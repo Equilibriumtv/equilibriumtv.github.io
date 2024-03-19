@@ -154,7 +154,7 @@ Compativel com as versões Matrix 19 e 20 Nexus
     </extension>
 </addon>
 
-<addon id="plugin.video.iptvplayer" name="IPTV PLAYER" version="1.1" provider-name="[B][COLOR gold]Team Magusplay[/B][/COLOR]">
+<addon id="plugin.video.iptvplayer" name="IPTV PLAYER" version="1.2" provider-name="[B][COLOR gold]Team Magusplay[/B][/COLOR]">
 	<requires>
 		<import addon="script.module.requests" version="2.27.1"/>
 	</requires>

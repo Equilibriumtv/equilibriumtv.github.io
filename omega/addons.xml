@@ -66,6 +66,24 @@ Compativel com as versões Matrix 19 e 20 Nexus
 	</news>
 </extension>
 </addon>
+
+<addon id="plugin.video.drakkotv" name="DrakkoTV Plus" version="1.9" provider-name="[B][COLOR blue]Team Magusplay[/B][/COLOR]">
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="pt">[COLOR blue]Este addon não vende nem fornece ou armazena qualquer conteúdo ilegal[/COLOR] </summary>
+	<language>en</language>
+	<description lang="pt">[COLOR blue]Addon compátivel apenas com o  kodi 19+[/COLOR]</description>
+	<platform>all</platform>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.f4mTester" version="4.1.2" name="f4mTester" provider-name="Team Magusplay">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>

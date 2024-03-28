@@ -1,6 +1,6 @@
 <addons>
 
-<addon id="plugin.video.equilibrium" name="Equilibrium" version="5.7" provider-name="Team Magusplay">
+<addon id="plugin.video.equilibrium" name="Equilibrium" version="5.8" provider-name="Team Magusplay">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />

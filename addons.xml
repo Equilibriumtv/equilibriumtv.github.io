@@ -43,8 +43,6 @@
         </assets>
     </extension>
 </addon>
-	
-</addon>
 
 <addon id="plugin.video.iptvplayer" name="IPTV PLAYER" version="1.2" provider-name="[B][COLOR gold]Team Magusplay[/B][/COLOR]">
 	<requires>

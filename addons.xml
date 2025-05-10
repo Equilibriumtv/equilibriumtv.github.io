@@ -1,5 +1,109 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.equilibrium" name="Equilibrium" version="0.1.76" provider-name="Team Magusplay">
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="pt">[COLOR white]Este addon não vende nem fornece ou armazena qualquer conteúdo ilegal[/COLOR] </summary>
+	<language>pt</language>
+	<description lang="pt">[COLOR lime]Addon compátivel com o  kodi 19+[/COLOR]</description>
+	<platform>all</platform>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.drakkotv" version="0.1.8" name="DrakkoTV" provider-name="Team Magusplay">
+    <requires>
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+		<import addon="script.module.beautifulsoup4"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.inputstreamhelper"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">This addon does not sell or provide or store any illegal content</summary>
+		<summary lang="pt">Este addon não vende nem fornece ou armazena qualquer conteúdo ilegal</summary>
+        <description lang="en">Streaming videos through providers available on the internet</description>
+		<description lang="pt">Streaming de videos atraves de provedores disponiveis na internet</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <disclaimer>O autor deste complemento não hospeda nenhum conteúdo encontrado e não tem afiliação com nenhum dos provedores de conteúdo. Este complemento simplesmente pesquisa conteúdo em sites. Use por sua conta e risco!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+	
+</addon>
+
+<addon id="plugin.video.iptvplayer" name="IPTV PLAYER" version="1.2" provider-name="[B][COLOR gold]Team Magusplay[/B][/COLOR]">
+	<requires>
+		<import addon="script.module.requests" version="2.27.1"/>
+	</requires>
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="br">[COLOR blue]Um Player de IPTV para reproduzir listas m3u8 no Kodi 19+[/COLOR] </summary>
+	<language>br</language>
+	<description lang="br">[COLOR gold]Este addon não fornece nem fornece qualquer conteúdo ilegal[/COLOR]</description>
+	<platform>all</platform>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.elysium" name="Elysium" version="0.1.32" provider-name="Team Magusplay">
+	<requires>
+		<import addon="script.module.requests" version="2.27.1"/>
+	</requires>
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="br">[COLOR white]Este addon não vende nem fornece ou armazena qualquer conteúdo ilegal[/COLOR]</summary>
+	<language>br</language>
+	<description lang="br">[COLOR blue]AVISO IMPORTANTE! ATIVE SUPORTE F4M NAS CONFIGURAÇÕES PARA TRANSMISSÕES AO VIVO[/COLOR]</description>
+	<platform>all</platform>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.f4mTester" version="0.1.36" name="f4mTester" provider-name="Team Magusplay">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="inputstream.ffmpegdirect"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>  
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">f4mTester</summary>
+        <description></description>
+        <platform>all</platform>
+        <assets>
+			<icon>icon.png</icon>
+		</assets>
+    </extension>
+</addon>
+
 <addon id="plugin.video.f4mTester" version="0.1.36" name="f4mTester" provider-name="Team Magusplay">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>

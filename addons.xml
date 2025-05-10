@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-
 <addon id="plugin.video.equilibrium" name="Equilibrium" version="0.1.76" provider-name="Team Magusplay">
   <extension point="xbmc.python.pluginsource"
 			library="default.py">

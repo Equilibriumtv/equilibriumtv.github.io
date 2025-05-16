@@ -17,7 +17,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.drakkotv" version="0.1.8" name="DrakkoTV" provider-name="Team Magusplay">
+<addon id="plugin.video.drakkotv" version="0.1.9" name="DrakkoTV" provider-name="Team Magusplay">
     <requires>
         <import addon="script.module.simplejson" />
         <import addon="script.module.six" />

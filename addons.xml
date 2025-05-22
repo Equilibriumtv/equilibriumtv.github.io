@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.equilibrium" name="Equilibrium" version="0.1.76" provider-name="Team Magusplay">
+<addon id="plugin.video.equilibrium" name="Equilibrium" version="0.1.77" provider-name="Team Magusplay">
   <extension point="xbmc.python.pluginsource"
 			library="default.py">
 		<provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-	<summary lang="pt">[COLOR white]Este addon não vende nem fornece ou armazena qualquer conteúdo ilegal[/COLOR] </summary>
+	<summary lang="pt">Este addon não vende nem fornece ou armazena qualquer conteúdo ilegal</summary>
 	<language>pt</language>
-	<description lang="pt">[COLOR lime]Addon compátivel com o  kodi 19+[/COLOR]</description>
+	<description lang="pt">Addon compátivel com o  kodi 19+</description>
 	<platform>all</platform>
 	<assets>
 		<icon>icon.png</icon>

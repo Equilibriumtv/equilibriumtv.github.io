@@ -17,6 +17,23 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.elysium" name="Equilibrium" version="0.1.33" provider-name="Team Magusplay">
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="pt">Este addon não vende nem fornece ou armazena qualquer conteúdo ilegal</summary>
+	<language>pt</language>
+	<description lang="pt">Addon compátivel com o  kodi 19+</description>
+	<platform>all</platform>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.iptvplayer" name="IPTV PLAYER" version="1.2" provider-name="[B][COLOR gold]Team Magusplay[/B][/COLOR]">
 	<requires>
 		<import addon="script.module.requests" version="2.27.1"/>
@@ -29,26 +46,6 @@
 	<summary lang="br">[COLOR blue]Um Player de IPTV para reproduzir listas m3u8 no Kodi 19+[/COLOR] </summary>
 	<language>br</language>
 	<description lang="br">[COLOR gold]Este addon não fornece nem fornece qualquer conteúdo ilegal[/COLOR]</description>
-	<platform>all</platform>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-	</assets>
-  </extension>
-</addon>
-
-<addon id="plugin.video.elysium" name="Elysium" version="0.1.32" provider-name="Team Magusplay">
-	<requires>
-		<import addon="script.module.requests" version="2.27.1"/>
-	</requires>
-  <extension point="xbmc.python.pluginsource"
-			library="default.py">
-		<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-	<summary lang="br">[COLOR white]Este addon não vende nem fornece ou armazena qualquer conteúdo ilegal[/COLOR]</summary>
-	<language>br</language>
-	<description lang="br">[COLOR blue]AVISO IMPORTANTE! ATIVE SUPORTE F4M NAS CONFIGURAÇÕES PARA TRANSMISSÕES AO VIVO[/COLOR]</description>
 	<platform>all</platform>
 	<assets>
 		<icon>icon.png</icon>

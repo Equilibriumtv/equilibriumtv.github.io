@@ -17,7 +17,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.elysium" name="Equilibrium" version="0.1.33" provider-name="Team Magusplay">
+<addon id="plugin.video.elysium" name="Elysium" version="0.1.33" provider-name="Team Magusplay">
   <extension point="xbmc.python.pluginsource"
 			library="default.py">
 		<provides>video</provides>

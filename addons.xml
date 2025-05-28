@@ -54,51 +54,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.f4mTester" version="0.1.38" name="f4mTester" provider-name="Team Magusplay">
-    <requires>
-        <import addon="script.module.simplejson" />
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-		<import addon="script.module.beautifulsoup4"/>
-        <import addon="script.module.requests"/>
-        <import addon="script.module.inputstreamhelper"/>
-    </requires>    
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>  
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">f4mTester</summary>
-        <description></description>
-        <platform>all</platform>
-        <assets>
-			<icon>icon.png</icon>
-		</assets>
-    </extension>
-</addon>
-
-<addon id="plugin.video.f4mTester" version="0.1.37" name="f4mTester" provider-name="Team Magusplay">
-    <requires>
-        <import addon="script.module.simplejson" />
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-		<import addon="script.module.beautifulsoup4"/>
-        <import addon="script.module.requests"/>
-        <import addon="script.module.inputstreamhelper"/>
-    </requires>    
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>  
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">f4mTester</summary>
-        <description>Esta versão foi criada por Joel Team Oneplay, e modificada por Magusplay</description>
-        <platform>all</platform>
-        <assets>
-			<icon>icon.png</icon>
-		</assets>
-    </extension>
-</addon>
-
-<addon id="plugin.video.f4mTester" version="0.1.36" name="f4mTester" provider-name="Team Magusplay">
+<addon id="plugin.video.f4mTester" version="0.1.40" name="f4mTester" provider-name="Team Magusplay">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="inputstream.ffmpegdirect"/>

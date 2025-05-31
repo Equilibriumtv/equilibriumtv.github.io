@@ -54,28 +54,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.f4mTester" version="0.1.41" name="f4mTester" provider-name="Team Magusplay">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-		<import addon="script.module.requests"/>	
-        <import addon="inputstream.ffmpegdirect"/>        
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>  
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">f4mTester</summary>
-        <description></description>
-        <platform>all</platform>
-        <assets>
-			<icon>icon.png</icon>
-		</assets>
-    </extension>
-</addon>
-
-<addon id="plugin.video.f4mTester" version="0.1.40" name="f4mTester" provider-name="Team Magusplay">
+<addon id="plugin.video.f4mTester" version="0.1.42" name="f4mTester" provider-name="Team Magusplay">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="inputstream.ffmpegdirect"/>
@@ -84,7 +63,7 @@
         <provides>video</provides>
     </extension>  
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">f4mTester</summary>
+        <summary lang="en">f4mTester Oficial Addons da Familia Equilibrium</summary>
         <description></description>
         <platform>all</platform>
         <assets>

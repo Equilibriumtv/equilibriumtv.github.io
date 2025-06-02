@@ -17,21 +17,28 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.elysium" name="Elysium" version="0.1.35" provider-name="Team Magusplay">
-  <extension point="xbmc.python.pluginsource"
-			library="default.py">
-		<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-	<summary lang="pt">Este addon não vende nem fornece ou armazena qualquer conteúdo ilegal</summary>
-	<language>pt</language>
-	<description lang="pt">Addon compátivel com o  kodi 19+</description>
-	<platform>all</platform>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-	</assets>
-  </extension>
+<addon id="plugin.video.elysium" version="0.1.36" name="Elysium" provider-name="Team Magusplay">
+    <requires>
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+		<import addon="script.module.beautifulsoup4"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.inputstreamhelper"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+		<description lang="pt">Elysium Addon da Familia Magusplay Equilibium</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <disclaimer>O autor deste Addon não hospeda nenhum conteúdo, e não tem afiliação com nenhum dos provedores de conteúdo. Este complemento simplesmente pesquisa conteúdo em sites.</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 
 <addon id="plugin.video.iptvplayer" name="IPTV PLAYER" version="1.2" provider-name="[B][COLOR gold]Team Magusplay[/B][/COLOR]">

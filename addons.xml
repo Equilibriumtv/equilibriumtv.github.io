@@ -169,8 +169,9 @@
   </extension>
 </addon>
 
-<addon id="repository.elementumorg" name="ElementumOrg repository" provider-name="elementumorg" version="0.0.2">
+<addon id="repository.elementumorg" name="ElementumOrg repository" provider-name="elementumorg" version="0.0.5">
     <requires>
+        <!--<import addon="xbmc.python" version="3.0.0"/>-->
     </requires>
     <extension point="xbmc.addon.repository">
         <dir>
@@ -188,6 +189,12 @@
         <summary lang="en">GitHub virtual Add-on repository</summary>
         <description lang="en">Customizable repository which acts as a proxy for defined GitHub users' add-ons updates.</description>
         <news>
+- Allow running in standalone mode
+- Migrate to GitHub API
+- Add support for "tag_pattern" field
+- Add support for private repositories by supplying a "token"
+- Try to automatically determine zip ref from version
+- Multiple minor improvements
         </news>
         <assets>
             <icon>icon.png</icon>
@@ -285,6 +292,29 @@
 			<icon>icon.png</icon>
 		</assets>
 	</extension>
+</addon>
+
+<addon id="program.optiklean" name="OptiKlean" provider-name="DigiTalking" version="1.1.0">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+	<extension point="xbmc.service" library="service.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>MIT</license>
+        <source>https://gitlab.com/personal4143605/optiklean</source>
+        <summary lang="en_US">Clean and optimize Kodi utility.</summary>
+        <summary lang="it_IT">Utilità di pulizia e ottimizzazione Kodi.</summary>
+        <description lang="en_US">Advanced tool to perform various types of Kodi cleaning and optimization.</description>
+        <description lang="it_IT">Strumento avanzato che permette di eseguire vari tipi di pulizie e ottimizzazione Kodi.</description>
+        <assets>
+            <icon>resources/media/icon.jpg</icon>
+            <fanart>resources/media/fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 
 <addon id="script.kcleaner" name="KCleaner" provider-name="Dalibor Lanik" version="4.02.1"> 

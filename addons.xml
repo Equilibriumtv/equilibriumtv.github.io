@@ -20,7 +20,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.playboxhd" name="Playbox HD" version="0.1.4" provider-name="Team Magusplay">
+<addon id="plugin.video.playboxhd" name="Playbox HD" version="0.1.5" provider-name="Team Magusplay">
 	<requires>
 		<import addon="script.module.requests" version="2.27.1"/>
 	</requires>
@@ -31,7 +31,7 @@
   <extension point="xbmc.addon.metadata">
 	<summary lang="pt">O autor deste Addon não hospeda nenhum conteúdo, e não tem afiliação com nenhum dos provedores de conteúdo. Este complemento simplesmente pesquisa conteúdo em sites.</summary>
 	<language>en</language>
-	<description lang="pt">Playbox HD é um Addon da Familia Magusplay Equilibium, Este addon não usa f4mtester para transmissão ao vivo</description>
+	<description lang="pt">Playbox HD é um Addon da Familia Magusplay Equilibium</description>
 	<platform>all</platform>
 	<assets>
 		<icon>icon.png</icon>

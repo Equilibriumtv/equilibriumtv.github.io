@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.equilibrium" name="Equilibrium" version="0.1.85" provider-name="Team Magusplay">
+<addon id="plugin.video.equilibrium" name="Equilibrium" version="0.1.86" provider-name="Team Magusplay">
 	<requires>
 		<import addon="script.module.requests" version="2.27.1"/>
 	</requires>
@@ -9,9 +9,9 @@
 		<provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-	<summary lang="pt">O autor deste Addon não hospeda nenhum conteúdo, e não tem afiliação com nenhum dos provedores de conteúdo. Este complemento simplesmente pesquisa conteúdo em sites.</summary>
-	<language>en</language>
-	<description lang="pt">Equilibium TV e Séries Grátis, Addon Exclusivo para Membros do grupo Equilibrium</description>
+	<summary lang="br">Este addon não vende nem fornece ou armazena qualquer conteúdo ilegal</summary>
+	<language>br</language>
+	<description lang="br">Equilibrium vesão 2025</description>
 	<platform>all</platform>
 	<assets>
 		<icon>icon.png</icon>

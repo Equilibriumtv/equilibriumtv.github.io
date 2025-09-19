@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.equilibrium" name="Equilibrium" version="0.1.86" provider-name="Team Magusplay">
+<addon id="plugin.video.equilibrium" name="Equilibrium" version="0.1.87" provider-name="Team Magusplay">
 	<requires>
 		<import addon="script.module.requests" version="2.27.1"/>
 	</requires>

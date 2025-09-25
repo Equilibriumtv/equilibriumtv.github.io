@@ -46,7 +46,7 @@
 
 <addon id="plugin.video.elysium"
        name="Elysium"
-       version="0.1.48"
+       version="0.1.49"
        provider-name="Team Magusplay">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>

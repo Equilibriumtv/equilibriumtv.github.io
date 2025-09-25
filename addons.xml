@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.equilibrium" name="Equilibrium" version="0.1.87" provider-name="Team Magusplay">
-	<requires>
-		<import addon="script.module.requests" version="2.27.1"/>
-	</requires>
-  <extension point="xbmc.python.pluginsource"
-			library="default.py">
-		<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-	<summary lang="br">Este addon não vende nem fornece ou armazena qualquer conteúdo ilegal</summary>
-	<language>br</language>
-	<description lang="br">Equilibrium vesão 2025</description>
-	<platform>all</platform>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-	</assets>
-  </extension>
+<addon id="plugin.video.equilibrium"
+       name="Equilibrium"
+       version="0.1.88"
+       provider-name="Team Magusplay">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Addon para Radio, TV, Filmes e Series, EPG e Busca Global</summary>
+        <description>Host Remoto, usuario e senha para acessar canais, VOD, series com temporadas/episodios, EPG e busca global.</description>
+        <platform>all</platform>
+        <license>GPL-2.0-or-later</license>
+        <disclaimer>Equilibrium, um addon para Kodi que permite acesso a conteudo de IPTV.</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 
 <addon id="plugin.video.playboxhd" name="Playbox HD" version="0.2.10" provider-name="Team Magusplay">

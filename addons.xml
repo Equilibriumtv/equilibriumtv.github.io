@@ -24,6 +24,26 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.SecretHub" name="Secret Hub" version="0.1.1" provider-name="Team Magusplay">
+	<requires>
+		<import addon="script.module.requests" version="2.27.1"/>
+	</requires>
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="br">Addon para conteúdo 18+</summary>
+	<language>br</language>
+	<description lang="br">Conteúdo +18</description>
+	<platform>all</platform>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.playboxhd" name="Playbox HD" version="0.2.10" provider-name="Team Magusplay">
 	<requires>
 		<import addon="script.module.requests" version="2.27.1"/>

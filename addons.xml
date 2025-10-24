@@ -108,6 +108,30 @@
   </extension>
 </addon>
 
+<addon id="plugin.audio.tuneinradio" name="[COLOR aqua]TuneIn Radio[/COLOR]" version="4.0.3" provider-name="joaconigro">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.simplejson" version="3.17.0"/>
+		<!-- <import addon="script.module.web-pdb" /> -->
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+        <language>en es</language>
+        <platform>all</platform>
+        <forum></forum>
+        <email>joaquinnigro@gmail.com</email>
+		<description lang="en_GB">TuneIn Radio is a free service that lets you listen to anything in the world from wherever you are. Whether you want to hear music, sports, news or current events. TuneIn Radio offers over 50,000 stations for you to choose from. From finding local stations to discovering new stations from around the world, TuneIn Radio brings you to where you want to be.</description>
+		<description lang="pt_br">TuneIn Radio é um serviço gratuito que permite ouvir qualquer coisa do mundo de onde você estiver. Se você quiser ouvir música, esportes, notícias ou eventos ao vivo, o TuneIn Radio oferece mais de 50.000 estações de rádio para escolher — desde estações locais até novas estações ao redor do mundo. O TuneIn Radio leva você aonde você quiser estar.</description>
+		<license>MIT</license>
+		<assets>
+        	<icon>icon.png</icon>
+        	<fanart>fanart.jpg</fanart>
+    	</assets>
+	</extension>	
+</addon>
+
 <addon id="plugin.audio.equilibriumFM" version="0.1.2" name="Equilibrium WebRadio" provider-name="TEAM MAGUSPLAY">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>

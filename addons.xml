@@ -319,32 +319,38 @@
   </extension>
 </addon>
 
-<addon id="repository.equilibrium" name="Equilibrium Repository" version="0.1.16" provider-name="Team Magusplay">
-	<extension point="xbmc.addon.repository" name="Equilibrium Repository">
-		<dir>
-	        <info compressed="false">https://raw.githubusercontent.com/Equilibriumtv/equilibriumtv.github.io/master/addons.xml</info>
-	        <checksum>https://raw.githubusercontent.com/Equilibriumtv/equilibriumtv.github.io/master/addons.xml.md5</checksum>
-	        <datadir zip="true">https://raw.githubusercontent.com/Equilibriumtv/equilibriumtv.github.io/master/zips/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.github.com/Equilibriumtv/equilibriumtv.github.io/master/addons.xml</info>
-			<checksum>https://raw.github.com/Equilibriumtv/equilibriumtv.github.io/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/Equilibriumtv/equilibriumtv.github.io/master/zips/</datadir>
-		</dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/Goldenfreddy0703/repository.otaku/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Goldenfreddy0703/repository.otaku/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Goldenfreddy0703/repository.otaku/master/repo/zips/</datadir>
-        </dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Complementos de terceiros para Kodi</summary>
-		<description>Magusplay Addons Repository</description>
-		<platform>all</platform>
-	    <assets>
-      		<icon>icon.png</icon>
-    	</assets> 
-	</extension>
+<addon 
+  id="repository.equilibrium" 
+  name="Repositório equilibrium" 
+  version="0.1.17" 
+  provider-name="Team Magusplay">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>  
+  </requires>
+  <extension point="xbmc.addon.repository" name="Repositório equilibrium">
+      <dir>
+      <info compressed="true">https://gitea.com/valfellix/starfall/raw/branch/master/addons.xml</info>
+      <checksum>https://gitea.com/valfellix/starfall/raw/branch/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://gitea.com/valfellix/starfall/raw/branch/master/</datadir>
+      <hashes>false</hashes>
+  </dir>  
+  <dir minversion="19.0.0">
+      <info compressed="true">https://gitea.com/valfellix/starfall/raw/branch/master/matrix/addons.xml</info>
+      <checksum>https://gitea.com/valfellix/starfall/raw/branch/master/matrix/addons.xml.md5</checksum>
+      <datadir zip="true">https://gitea.com/valfellix/starfall/raw/branch/master/matrix</datadir>
+      <hashes>false</hashes>
+  </dir>    
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Repositorio Oficial Equilibrium</summary>
+    <description>Repositorio oficial Addon Team Magusplay - Proibido reprodução sem previa autorizacao</description>
+    <disclaimer></disclaimer>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="script.video.F4mProxy" 

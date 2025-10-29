@@ -1,8 +1,0 @@
-3.4.3
-Matrix Release
-
-3.4.1
-Bugfix
-
-3.4
-First Kodi repackage

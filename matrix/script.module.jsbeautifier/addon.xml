@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.jsbeautifier" name="jsbeautifier" version="1.15.1" provider-name="Joel">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.six"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Written by Einar Lielmanis, maintained and evolved by Liam Newman.</summary>
+        <description>Beautify, unpack or deobfuscate JavaScript. Handles popular online obfuscators.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <source>https://pypi.org/project/jsbeautifier/</source>
+        <website>https://beautifier.io/</website>
+    </extension>
+</addon>

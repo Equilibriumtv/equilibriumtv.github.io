@@ -1,0 +1,18 @@
+<addon id="script.kodi.debugmode" version="1.0.0" name="KODI DEBUG" provider-name="Joel">
+    <requires>
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.loguploader" />
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>enable debug mode on kodi</summary>
+        <description>enable debug mode on kodi</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>        
+    </extension>
+</addon>

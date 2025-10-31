@@ -1,22 +1,24 @@
-# Repositorio Equilibrium
- Repositorio Oficial Addon Equilibrium!
- 
- 
- Como Instalar o repositório Equilibrium para ter acesso aos Conteúdos!
+# 🌟 Equilibrium Repository
+### Versão Atual: 0.1.18
 
+Repositório oficial para addons Kodi do projeto **Equilibrium Addons**.
 
-<p align="left">
-  <ul>
-    <li>Vá para as configurações do Kodi, GESTOR DE ARQUIVOS (FILE MANAGER).</li>
-    <li>Clque em "Adicionar Origem"</li>
-    <li>O endereço para a fonte é <code>https://equilibriumtv.github.io/</code> (Dê o nome de "Equilibrium")<a href="repository.equilibrium-0.1.17.zip">repository.equilibrium-0.1.17.zip</a></li>
-    <li>Confirme e retorne a tela principal, e vá para "Add-ons"</li>
-    <li>Em Add-ons, CLique  no icone de uma CAIXINGA DE PAPELÂO, em seguida vá em INSTALAR A PARTIR DE UM ARQUIVO ZIP. Na realação de Dispositivos, selecione o dispositivo Equilibrium, e pressione ok</a>.</li>
-    <li>Após a Intalação, Retorne para Add-ons, clique novamente na CAIXINHA DE PAPELÃO, e selecione "Instalar via repositório"</li>
-    <li>Seleciono o "Equilibrium Repositorio"</li>
-    
-                                       ** Pronto, Instalação Concluida!**
-  </ul>
-</p>
+---
 
-## Equilibrium TV GRÁTIS!
+## 🧭 Instruções para instalar no Kodi:
+
+1. Abra o **Kodi** e vá para **Gestor de Ficheiros** (File Manager).  
+2. Clique em **Adicionar fonte**.  
+3. No campo do endereço, digite:  
+https://equilibriumtv.github.io/
+Dê um nome (por exemplo): **Equilibrium Reposit,orio**  
+4. Volte ao menu principal e entre em **Add-ons**.  
+5. Escolha **Instalar a partir de um ficheiro ZIP**.  
+6. Selecione a fonte **Equilibrium Repo** e instale:  
+[repository.equilibrium-0.1.18.zip](repository.equilibrium-0.1.18.zip)
+7. Após a instalação, vá em **Instalar a partir do repositório**.  
+8. Escolha **Equilibrium Repository** e instale os addons disponíveis.
+
+---
+
+## 📦 Estrutura do Repositório

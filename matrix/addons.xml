@@ -24,6 +24,23 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.elysium" name="Elysium" version="0.1.50" provider-name="Team Magusplay">
+  <extension point="xbmc.python.pluginsource"
+      library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="pt_BR">Addon Elysium</summary>
+    <language>en</language>
+    <description lang="pt_BR">Host Remoto, usuario e senha para acessar canais, VOD, series com temporadas/episodios, EPG e busca global.</description>
+    <platform>all</platform>
+    <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.secrethub" name="Secret Hub" version="0.1.6" provider-name="Team Magusplay">
 	<requires>
 		<import addon="script.module.requests" version="2.27.1"/>
@@ -85,7 +102,7 @@
         	<icon>icon.png</icon>
         	<fanart>fanart.jpg</fanart>
     	</assets>
-	</extension>	
+	</extension>
 </addon>
 
 <addon id="plugin.audio.equilibriumFM" version="0.1.2" name="Equilibrium WebRadio" provider-name="TEAM MAGUSPLAY">
@@ -134,7 +151,7 @@
     <extension point="xbmc.service" library="service.py" start="startup"/>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
-    </extension>  
+    </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">f4mTester Oficial Addons da Familia Equilibrium</summary>
         <description></description>
@@ -156,7 +173,7 @@
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
-        </assets>        
+        </assets>
     </extension>
 </addon>
 
@@ -169,7 +186,7 @@
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="app.py">
         <provides>executable</provides>
-    </extension>    
+    </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <summary lang="en_GB">DNS OVER HTTPS (DoH) resolver for Kodi.</summary>
@@ -275,13 +292,13 @@
   </extension>
 </addon>
 
-  <addon 
-  id="repository.equilibrium" 
-  name="Repositório equilibrium" 
-  version="0.1.18" 
+  <addon
+  id="repository.equilibrium"
+  name="Repositório equilibrium"
+  version="0.1.18"
   provider-name="Team Magusplay">
   <requires>
-    <import addon="xbmc.addon" version="12.0.0"/>  
+    <import addon="xbmc.addon" version="12.0.0"/>
   </requires>
   <extension point="xbmc.addon.repository" name="Repositório equilibrium">
       <dir>
@@ -289,13 +306,13 @@
       <checksum>https://raw.githubusercontent.com/Equilibriumtv/equilibriumtv.github.io/master/addons.xml.md5</checksum>
       <datadir zip="true">https://raw.githubusercontent.com/Equilibriumtv/equilibriumtv.github.io/master/</datadir>
       <hashes>false</hashes>
-  </dir>  
+  </dir>
   <dir minversion="19.0.0">
       <info compressed="true">https://raw.githubusercontent.com/Equilibriumtv/equilibriumtv.github.io/master/matrix/addons.xml</info>
       <checksum>https://raw.githubusercontent.com/Equilibriumtv/equilibriumtv.github.io/master/matrix/addons.xml.md5</checksum>
       <datadir zip="true">https://raw.githubusercontent.com/Equilibriumtv/equilibriumtv.github.io/master/matrix</datadir>
       <hashes>false</hashes>
-  </dir>    
+  </dir>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>Repositorio Oficial Equilibrium</summary>
@@ -309,9 +326,9 @@
   </extension>
 </addon>
 
-<addon id="script.video.F4mProxy" 
-	     name="F4mProxy" 
-	     version="4.0.9" 
+<addon id="script.video.F4mProxy"
+	     name="F4mProxy"
+	     version="4.0.9"
 	     provider-name="Team Magusplay joel e Tiago">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
@@ -322,7 +339,7 @@
     <extension point="xbmc.python.pluginsource" library="addon.py">
 		<provides>executable</provides>
 	</extension>
-    
+
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
 		<summary lang="en">Proxy for f4m</summary>
@@ -353,17 +370,17 @@
     </extension>
 </addon>
 
-<addon id="script.kcleaner" name="KCleaner" provider-name="Dalibor Lanik" version="4.2.2"> 
+<addon id="script.kcleaner" name="KCleaner" provider-name="Dalibor Lanik" version="4.2.2">
   <requires>
-    <import addon="xbmc.python" version="3.0.0" /> 
+    <import addon="xbmc.python" version="3.0.0" />
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource">
         <provides>executable</provides>
   </extension>
-  <extension library="service.py" point="xbmc.service" start="startup"> 
+  <extension library="service.py" point="xbmc.service" start="startup">
         <provides>executable</provides>
   </extension>
-  <extension point="xbmc.addon.metadata"> 
+  <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <website>http://projects.lanik.org/KodiProject_KCleaner.htm</website>
     <summary lang="en_GB">Clean up temporary files in Kodi.</summary>
@@ -950,7 +967,7 @@
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="app.py">
         <provides>executable</provides>
-    </extension>    
+    </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <summary lang="en_GB">DNS OVER HTTPS (DoH) resolver for Kodi.</summary>

@@ -105,25 +105,6 @@
 	</extension>
 </addon>
 
-<addon id="plugin.audio.equilibriumFM" version="0.1.2" name="Equilibrium WebRadio" provider-name="TEAM MAGUSPLAY">
-<requires>
-  <import addon="xbmc.python" version="3.0.0"/>
-</requires>
-<extension point="xbmc.python.pluginsource" library="default.py">
-  <provides>audio</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="pt">Web Radios online</summary>
-  <description lang="en_GB">Team Magusplay</description>
-  <disclaimer lang="en_GB">Todos os direitos reservados</disclaimer>
-  <assets>
-    <icon>resources/images/icon.png</icon>
-    <fanart>resources/images/fanart.jpg</fanart>
-  </assets>
-  <news>0.1.1 Web Radios Online Grátis</news>
-</extension>
-</addon>
-
 <addon id="plugin.audio.estudioKazaFM" version="3.0.2" name="Estúdio KAZA FM" provider-name="TEAM Estúdio KAZA FM">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>

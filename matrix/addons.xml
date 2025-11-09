@@ -24,7 +24,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.elysium" name="Elysium" version="0.1.56" provider-name="Team Magusplay">
+<addon id="plugin.video.elysium" name="Elysium" version="0.1.57" provider-name="Team Magusplay">
   <extension point="xbmc.python.pluginsource"
       library="default.py">
     <provides>video</provides>

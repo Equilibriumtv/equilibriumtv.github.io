@@ -19,12 +19,12 @@
         <disclaimer>Equilibrium, um addon para Kodi que permite acesso a conteudo de IPTV.</disclaimer>
         <assets>
             <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
+            <fanart>fanart.jpg</fanart>d41d8cd98f00b204e9800998ecf8427e
         </assets>
     </extension>
 </addon>
 
-<addon id="plugin.video.elysium" name="Elysium" version="0.1.67" provider-name="Team Magusplay">
+<addon id="plugin.video.elysium" name="Elysium" version="0.1.68" provider-name="Team Magusplay">
   <extension point="xbmc.python.pluginsource"
       library="default.py">
     <provides>video</provides>

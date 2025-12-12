@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.equilibrium"
        name="Equilibrium"
-       version="0.1.113"
+       version="0.1.114"
        provider-name="Team Magusplay">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>

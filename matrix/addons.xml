@@ -41,7 +41,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.secrethub" name="Secret Hub" version="0.1.11" provider-name="Team Magusplay">
+<addon id="plugin.video.secrethub" name="Secret Hub" version="0.1.12" provider-name="Team Mgusplay">
 	<requires>
 		<import addon="script.module.requests" version="2.27.1"/>
 	</requires>
@@ -50,9 +50,9 @@
 		<provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-	<summary lang="br">Addon para conteúdo 18+</summary>
+	<summary lang="br">Este addon é um complemento de conteúdo adulto</summary>
 	<language>br</language>
-	<description lang="br">Conteúdo +18</description>
+	<description lang="br">Secret Hub vesão 2026</description>
 	<platform>all</platform>
 	<assets>
 		<icon>icon.png</icon>
@@ -309,18 +309,18 @@
   </extension>
 </addon>
 
-<addon id="script.encrypttool.lambda" name="Encrypt add-on, lambda" version="1.0.1" provider-name="Oneplay team">
+<addon id="script.encripty.equilibrium" name="Encrypt add-on equilibrium" version="0.1.1" provider-name="Team Magusplay">
     <requires>
         <import addon="script.module.six"/>
         <import addon="script.module.kodi-six"/>
     </requires>
     <extension point="xbmc.python.script" library="default.py"/>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">Encrypt add-on</summary>
-        <description lang="en">Encrypt add-on is an addon to encrypt script python</description>
+        <summary lang="pt">Encrypt add-on</summary>
+        <description lang="pt">O complemento Encrypt equilibrium é um complemento para criptografar scripts em Python.</description>
         <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 1, 12 June 2022</license>
-        <disclaimer>The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+        <license>Licença Pública Geral GNU. Versão 1, 12 de junho de 2022.</license>
+        <disclaimer>O autor deste complemento não hospeda nenhum dos conteúdos encontrados e não possui qualquer vínculo com os provedores de conteúdo. Este complemento simplesmente busca conteúdo em sites.</disclaimer>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>

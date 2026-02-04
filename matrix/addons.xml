@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.equilibrium"
        name="Equilibrium"
-       version="0.1.119"
+       version="0.1.120"
        provider-name="Team Magusplay">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
@@ -179,6 +179,25 @@
     </extension>
 </addon>
 
+<addon id="script.encripty.equilibrium" name="Encrypt add-on equilibrium" version="0.1.3" provider-name="Team Magusplay">
+    <requires>
+        <import addon="script.module.six"/>
+        <import addon="script.module.kodi-six"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="pt">Encrypt add-on</summary>
+        <description lang="pt">O complemento Encrypt equilibrium é um complemento para criptografar scripts em Python.</description>
+        <platform>all</platform>
+        <license>Licença Pública Geral GNU. Versão 1, 12 de junho de 2022.</license>
+        <disclaimer>O autor deste complemento não hospeda nenhum dos conteúdos encontrados e não possui qualquer vínculo com os provedores de conteúdo. Este complemento simplesmente busca conteúdo em sites.</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="plugin.video.playlistloader" name="Playlist Loader" version="1.9.3+matrix" provider-name="Forked by Publish3r">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -307,25 +326,6 @@
         <logo>resources/logo.png</logo>
     </assets>
   </extension>
-</addon>
-
-<addon id="script.encripty.equilibrium" name="Encrypt add-on equilibrium" version="0.1.1" provider-name="Team Magusplay">
-    <requires>
-        <import addon="script.module.six"/>
-        <import addon="script.module.kodi-six"/>
-    </requires>
-    <extension point="xbmc.python.script" library="default.py"/>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="pt">Encrypt add-on</summary>
-        <description lang="pt">O complemento Encrypt equilibrium é um complemento para criptografar scripts em Python.</description>
-        <platform>all</platform>
-        <license>Licença Pública Geral GNU. Versão 1, 12 de junho de 2022.</license>
-        <disclaimer>O autor deste complemento não hospeda nenhum dos conteúdos encontrados e não possui qualquer vínculo com os provedores de conteúdo. Este complemento simplesmente busca conteúdo em sites.</disclaimer>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
 </addon>
 
 <addon id="script.module.cloudscraper" name="CloudScraper2" version="1.2.60" provider-name="venomous">

@@ -41,7 +41,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.secrethub" name="Secret Hub" version="0.1.14" provider-name="Team Mgusplay">
+<addon id="plugin.video.secrethub" name="Secret Hub" version="0.1.15" provider-name="Team Mgusplay">
 	<requires>
 		<import addon="script.module.requests" version="2.27.1"/>
 	</requires>
@@ -179,7 +179,7 @@
     </extension>
 </addon>
 
-<addon id="script.encripty.equilibrium" name="Encrypt add-on equilibrium" version="0.1.4" provider-name="Team Magusplay">
+<addon id="script.encripty.equilibrium" name="Encrypt add-on equilibrium" version="0.1.5" provider-name="Team Magusplay">
     <requires>
         <import addon="script.module.six"/>
         <import addon="script.module.kodi-six"/>

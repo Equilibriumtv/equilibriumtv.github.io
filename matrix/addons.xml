@@ -2,11 +2,14 @@
 <addons>
 <addon id="plugin.video.equilibrium"
        name="Equilibrium"
-       version="0.1.149"
+       version="0.1.150"
        provider-name="Team Magusplay">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests"/>
+        <import addon="inputstream.adaptive" />
+        <import addon="inputstream.ffmpegdirect" />
+        <import addon="script.module.inputstreamhelper"/>
         <import addon="script.module.beautifulsoup4" version="4.6.3"/>
         <import addon="script.module.six" version="1.11.0"/>
     </requires>

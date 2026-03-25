@@ -74,6 +74,29 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.kaos" name="Kaos" version="0.1.1" provider-name="Team Magusplay">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.beautifulsoup4" version="4.6.3"/>
+        <import addon="script.module.six" version="1.11.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="pt_BR">Acesso completo a conteúdos IPTV e EPG para Kodi.</summary>
+        <description lang="pt_BR">O Kaos é uma ferramenta robusta para reprodução de listas IPTV, focada em estabilidade e velocidade. Com suporte a múltiplos servidores, guia de programação (EPG) e histórico de reprodução, oferece uma experiência limpa e eficiente. Este addon não fornece nem hospeda conteúdos ilegais; é apenas um reprodutor de mídia para listas fornecidas pelo usuário.</description>
+        <disclaimer lang="pt_BR">A equipe Magusplay não se responsabiliza pelo conteúdo carregado pelos usuários. Certifique-se de ter o F4MTester atualizado para garantir a melhor performance de streaming.</disclaimer>
+        <language>pt_BR</language>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="plugin.video.iptvplayer" name="IPTV PLAYER" version="1.2" provider-name="[B][COLOR gold]Team Magusplay[/B][/COLOR]">
 	<requires>
 		<import addon="script.module.requests" version="2.27.1"/>

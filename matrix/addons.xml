@@ -74,7 +74,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.kaos" name="Kaos" version="0.1.1" provider-name="Team Magusplay">
+<addon id="plugin.video.kaos" name="Kaos" version="0.1.2" provider-name="Team Magusplay">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests"/>

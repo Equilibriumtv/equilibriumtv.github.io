@@ -73,7 +73,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.reeltime" name="Reel Time" version="0.1.1" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
+<addon id="plugin.video.reeltime" name="Reel Time" version="0.1.2" provider-name="Team Magusplay">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests"/>

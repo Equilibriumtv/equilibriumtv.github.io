@@ -73,6 +73,25 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.reeltime" name="Reel Time" version="0.1.1" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+ <extension point="xbmc.addon.metadata">
+<summary>TV ao Vivo, Filmes e Séries</summary>
+		<description lang="pt">Addon de mídia avançado com sistema de autenticação segura e gerenciamento dinâmico de servidores. Desenvolvido para oferecer estabilidade máxima e navegação intuitiva. Acesse seu conteúdo favorito sem interrupções.</description>
+		<platform>all</platform>
+		<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+</extension>
+</addon>
+
 <addon id="plugin.video.secrethub" name="Secret Hub" version="0.1.27" provider-name="Team Mgusplay">
 	<requires>
 		<import addon="script.module.requests" version="2.27.1"/>

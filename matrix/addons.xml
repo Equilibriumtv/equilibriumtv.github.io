@@ -73,7 +73,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.eclipse" name="Eclipse" version="0.1.2" provider-name="Team Magusplay">
+<addon id="plugin.video.eclipse" name="Eclipse" version="0.1.3" provider-name="Team Magusplay">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="script.module.requests" version="2.22.0"/>

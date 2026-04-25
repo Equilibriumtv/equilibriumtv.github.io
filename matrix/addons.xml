@@ -73,6 +73,28 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.eclipse" name="Eclipse" version="0.1.1" provider-name="Team Magusplay">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1"/>
+        <import addon="script.module.requests" version="2.22.0"/>
+        <import addon="script.module.beautifulsoup4" version="4.6.3"/>
+        <import addon="script.module.six" version="1.11.0"/>
+        <import addon="pvr.iptvsimple" version="21.4.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="resources/lib/addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="pt_GB">Eclipse Player - M3U organizado e reprodutor Xtream</summary>
+        <description lang="pt_GB">Um reprodutor M3U e Xtream limpo, com classificação adequada: TV ao vivo, Filmes, Séries e Reprises, além de suporte a EPG.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="plugin.video.secrethub" name="Secret Hub" version="0.1.27" provider-name="Team Mgusplay">
 	<requires>
 		<import addon="script.module.requests" version="2.27.1"/>

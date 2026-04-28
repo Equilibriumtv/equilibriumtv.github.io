@@ -50,7 +50,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.kaos" name="Kaos" version="0.1.8" provider-name="Team Magusplay">
+<addon id="plugin.video.kaos" name="Kaos" version="0.1.9" provider-name="Team Magusplay">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests"/>
@@ -958,7 +958,7 @@ v0.5.9 (2022-03-22)
   </extension>
 </addon>
 
-<addon id="skin.nimbus" version="0.1.40" name="Nimbus"
+<addon id="skin.nimbus" version="0.1.41" name="Nimbus"
 	provider-name="Ivar Brandt">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0" />

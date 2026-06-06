@@ -29,25 +29,25 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.elysium" name="Elysium" version="0.1.94" provider-name="Team Magusplay">
+<addon id="plugin.video.elysium" name="Elysium" version="0.1.95" provider-name="Team Magusplay">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests"/>
     </requires>
-  <extension point="xbmc.python.pluginsource"
-      library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="pt_BR">Addon Elysium</summary>
-    <language>en</language>
-    <description lang="pt_BR">Host Remoto, usuario e senha para acessar canais, VOD, series com temporadas/episodios, EPG e busca global.</description>
-    <platform>all</platform>
-    <assets>
-    <icon>icon.png</icon>
-    <fanart>fanart.jpg</fanart>
-  </assets>
-  </extension>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="pt_BR">Addon Elysium</summary>
+        <language>en</language>
+        <description lang="pt_BR">Host Remoto, usuario e senha para acessar canais, VOD, series com temporadas/episodios, EPG e busca global.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 
 <addon id="plugin.video.kaos" name="Kaos" version="0.1.10" provider-name="Team Magusplay">

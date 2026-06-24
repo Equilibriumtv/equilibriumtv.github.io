@@ -73,6 +73,30 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.streamlive" name="Stream Live HD" version="0.1.1" provider-name="Team Magusplay">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1"/>
+        <import addon="script.module.requests" version="2.22.0"/>
+        <import addon="pvr.iptvsimple" version="21.4.0"/>
+        <import addon="service.upnext" version="1.1.0" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="resources/lib/addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="pt_BR">Stream Live - Player organizado de M3U e Xtream</summary>
+        <description lang="pt_BR">Um reprodutor M3U e Xtream limpo, com classificação adequada: PVR, TV ao vivo, Filmes, Séries e Repetição, TMDB, Trakt e suporte a EPG.</description>
+        <platform>all</platform>
+        <license>CC BY-NC 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>resources/background/background.png</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="plugin.video.iptvplayer" name="IPTV PLAYER" version="1.2" provider-name="[B][COLOR gold]Team Magusplay[/B][/COLOR]">
 	<requires>
 		<import addon="script.module.requests" version="2.27.1"/>
